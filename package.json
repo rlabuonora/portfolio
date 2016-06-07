@@ -4,6 +4,7 @@
   "description": "My portfolio page",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "express": "^4.13.4"
   },
   "devDependencies": {},
