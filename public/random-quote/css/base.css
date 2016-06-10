@@ -1,0 +1,34 @@
+body {
+  padding: 6em 0 2em 0;  
+}
+
+button, blockquote {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 3em;  
+}
+
+button a {
+  color: white;
+}
+footer {
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+.btn {
+  margin-right: 40px;
+  margin-top: 60px;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  width: 150px;
+   
+}
+
+.btn span {
+  margin-left: 15px;
+}
+ 
+.btn:focus {
+  outline: none;
+}
