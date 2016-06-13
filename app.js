@@ -8,8 +8,13 @@ app.set('view engine', 'html');
 app.use(express.static('public'));
 app.use(express.static('node_modules/bootstrap/dist'));
 
-app.get('/proyectos', function(request, response) {
+
+app.get('/', function(request, response) {
   response.render('pages/index');
+})
+
+app.get('/proyectos', function(request, response) {
+  response.render('pages/proyectos');
 })
 
 

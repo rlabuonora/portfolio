@@ -4,33 +4,52 @@
     <body>
       <div class="container">
         <% include ../partials/header %>
-        
-        <h3 class="text-center">Proyectos Recientes</h3>
-        <ul>
-          <li>
-            <h4><a href="#">Wikipedia Search</a></h4>
-            <p>Usa la API de Wikipedia para buscar artículos. (Bootstrap, JQuery)</p>
-            
-          
-          </li>
-          <li>
-             <h4><a href="#">Random Quote</a></h4>
-            <p>Saca citas al azar de una API pública (Random Quote) y permite twittearla (Bootstrap) </p>
-            
-          </li>
-          <li>
-             <h4><a href="#">Weather Widget</a></h4>
-            <p>Georeferencia al cliente y consulta el clima en su zona usando Open Weather API </p>
-          </li>
-                    <li>
-             <h4><a href="#">Rails Tutorial</a></h4>
-            <p>Un clon de twitter, basado en el tutorial de Michael Hartl </p>
-          </li>
-          
-        </ul>
+        <div class="jumbotron">
+          <div class="row text-center"> <img alt="" src="/images/header4.jpg" /></div>
+        </div> <!-- image -->
+        <div class="row marketing" id="quehago">
+          <h2 class="text-center">¿Qué Hago?</h2>
+          <div class="col-md-6">
+            <h4>Análisis de Datos</h4>
+            <p> Análisis y presentación de información estadística para la toma de decisiones y el logro de objetivos.</p>
+            <h4>Docencia</h4>
+            <p>Comunicación oral efectiva de ideas técnicas complejas.</p>
+          </div> <!-- col 1 -->
+          <div class="col-md-6">
+            <h4>Programación</h4>
+            <p> Desarrollo de Software usando metodologías Agile y TDD.</p>
+            <h4>Escritura</h4>
+            <p> Comunicación escrita en español e inglés.</p>
+          </div> <!-- col 2 -->
+        </div>
+  <!-- que hago -->
+  <h2 class="text-center">Proyectos Recientes</h2>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <a href="/wiki-viewer" class="thumbnail" target='_blank' data-toggle="tooltip" title="Search Wikipedia"><img alt="wikiview" src="/images/wiki.png" /></a>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <a href="/random-quote" class="thumbnail" target='_blank' data-toggle="tooltip" title="Random Quote"><img alt="randomQuote" src="/images/randomQuote.png" /></a>
+      </div>
+    </div>
+    <div class="row" id="proyectos">
+      <div class="col-md-4">
+        <a href="http://www.precios.uy" class="thumbnail" target='_blank' data-toggle="tooltip" title="www.precios.uy"><img alt="banner del SIPC" src="/images/thumbSIPC2.PNG" /></a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://morning-ridge-1269.herokuapp.com/" class="thumbnail" target='_blank' data-toggle="tooltip" title="Michael Hartl's Rails Tutorial"><img alt="sudoku" src="/images/sampleApp.png" /></a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://weather-widget-v1.herokuapp.com/" class="thumbnail" target='_blank' data-toggle="tooltip" title="Weather App"><img alt="sudoku" src="/images/weather.png " /></a>
+      </div>
+    </div>
+    <!-- proyectos -->
+    <div class="row" id="about">
+      <h2 class="text-center">Sobre Mí</h2>
+      <p>Estudié economía pero siempre me interesaron otras cosas. Actualmente soy consultor de Ministerio de Economía y Finanzas para el Sistema de Información de Precios al Consumidor. Vivo en Montevideo, Uruguay con mi esposa y mi hija.</p>
+    </div>
+       
         <% include ../partials/footer %>
       </div>
     </body>
-    
-    
   </html>
