@@ -10,11 +10,11 @@ app.use(express.static('node_modules/bootstrap/dist'));
 
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  response.render('pages/index', { title: "Inicio" });
 })
 
 app.get('/proyectos', function(request, response) {
-  response.render('pages/proyectos');
+  response.render('pages/proyectos', { title: "Proyectos" });
 })
 
 
