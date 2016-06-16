@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <% include ../partials/head %>
+    <script src="bootstrap-switch.min.js"></script>
+    <link href="bootstrap-switch.css" rel="stylesheet">
+    <link rel="stylesheet" href="twitch.css" type="text/css" />
+    <body>
+      <div class="container">
+        <% include ../partials/header %>
+        
+        <div class="row">
+          <h1>Twitch Streams</h1>
+          <div class="my-switch pull-right">
+            <input  type="checkbox" name="my-checkbox" data-on-text="ALL" data-off-text="Online" checked>
+          </div>
+        </div>
+         
+
+        <ul id="stream-list">
+        </ul>
+        
+    <script type="text/javascript" src="twitch-tv.js"></script>
+        <% include ../partials/footer %>
+      </div>
+    </body>
+  </html>        

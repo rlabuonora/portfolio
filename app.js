@@ -17,5 +17,8 @@ app.get('/proyectos', function(request, response) {
   response.render('pages/proyectos', { title: "Proyectos" });
 })
 
+app.get('/twitch-tv', function(request, response) {
+  response.render('pages/twitch-tv', { title: "Twitch-TV" });
+})
 
 module.exports = app;

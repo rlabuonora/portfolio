@@ -5,8 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.6",
-     "ejs": "^1.0.0",
-    "express": "^4.13.4"
+    "ejs": "^1.0.0",
+    "express": "^4.13.4",
+    "supertest": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
