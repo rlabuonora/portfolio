@@ -1,0 +1,84 @@
+.noticia img {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.noticia  {
+    border-bottom: 1px dotted grey;
+}
+
+
+#portada {
+    border-bottom: 0px white;
+    height: 100%;
+}
+
+.tituloSeccion {
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(223, 235, 248);
+    height: 40px;
+}
+
+h1, h2, h3 {
+    color: #39f;
+}
+
+h1, h2 {
+    font-weight: bold;
+ 
+}
+
+h3 {
+    font-size: 19.6px;
+}
+
+.noticia p {
+    font-size: 12.6px;
+    margin: 0;
+}
+
+.noticia p span {
+    margin-top: 10px;
+}
+
+.noticia h3 {
+    padding: 0;
+}
+
+#portada p {
+    font-size: 15px;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.seccion {
+     text-transform: uppercase;
+     display: block;
+     font-size: 12px;
+     margin: 0;
+}
+
+.noticia_1 {
+    border-right: 1px dotted grey;
+    padding-right: 15px;
+}
+
+.noticia_2 {
+    border-right: 1px dotted grey;
+    padding-right: 15px;
+
+}
+
+.noticia_3 {
+    border-top: 1px dotted grey;
+}
+
+.copete {
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+    font-size: 12px;
+}
