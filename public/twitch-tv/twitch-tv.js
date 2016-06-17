@@ -41,7 +41,7 @@ function getChannelsInfo() {
             var display_name = data.stream.channel.display_name;
             var url = data.stream.channel.url;
             var status_tag = "<p>" + data.stream.channel.status + "</p>";
-            var name_tag = "<h3><a href='" + url + "'>" + display_name + "</a></h3>"
+            var name_tag = "<h3><a href='" + url + "' target='_blank'>" + display_name + "</a></h3>"
             $("#stream-list").append("<li class='online'>" + logo_tag + name_tag + status_tag + "</li>");
           }
         });
