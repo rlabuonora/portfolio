@@ -19,6 +19,10 @@ app.get('/proyectos', function(request, response) {
 
 app.get('/twitch-tv', function(request, response) {
   response.render('pages/twitch-tv', { title: "Twitch-TV" });
+});
+
+app.get('/wikipedia-search', function(request, response) {
+  response.render('pages/wiki-viewer', { title: "Wikipedia Viewer" });
 })
 
 module.exports = app;
