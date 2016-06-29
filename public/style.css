@@ -39,7 +39,7 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-  margin-top: 100px;
+  margin-top: 180px;
   
 }
 
@@ -140,4 +140,10 @@ h2 {
 
 .logo {
   float: left;
+}
+
+#foto {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 430px;
 }
