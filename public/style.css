@@ -147,8 +147,13 @@ h2 {
 
 #foto {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 500px;
   margin-left: 430px;
+  transition: all 1s ease-in;
+}
+
+#foto.in-view  {
+  margin-top: 100px;
 }
 
 .fa {
