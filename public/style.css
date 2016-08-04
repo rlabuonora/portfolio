@@ -114,9 +114,7 @@ body {
   text-decoration: none;
 }
 
-#twitter {
-  float: right;
-}
+
 
 h2 {
   margin: 50px;
@@ -161,4 +159,12 @@ h2 {
   margin-top: 15px;
   color: grey;
   
+}
+
+#twitter {
+  float: right;
+}
+
+.footer i {
+  margin-top: 0;
 }
