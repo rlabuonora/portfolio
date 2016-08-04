@@ -154,12 +154,28 @@ h2 {
   margin-top: 100px;
 }
 
-.fa {
+.footer .fa {
   font-size: 26px;
-  margin-top: 15px;
   color: grey;
+  -webkit-transition-property: font-size, color;
+  -webkit-transition-duration: .2s, .2s;
+  -webkit-transition-timing-function: linear;
   
+  -moz-transition-property: font-size, color;
+  -moz-transition-duration: .2s, .2s;
+  -moz-transition-timing-function: linear;
+  
+  transition-property: font-size, color;
+  transition-duration: .2s, .2s;
+  transition-timing-function: linear;
 }
+
+
+.footer .fa:hover {
+  font-size: 34px;
+  color:  #00aced;;
+}
+
 
 #twitter {
   float: right;
