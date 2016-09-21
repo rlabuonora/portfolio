@@ -17,6 +17,14 @@ app.get('/proyectos', function(request, response) {
   response.render('pages/proyectos', { title: "Proyectos" });
 })
 
+app.get('/foro-ciudades', function(request, response) {
+  response.render('pages/foro-ciudades', { title: "Ciudades Inteligentes" });
+})
+
+app.get('/mision-corea', function(request, response) {
+  response.render('pages/mision-corea', { title: "Misión a Corea del Sur" });
+})
+
 app.get('/twitch-tv', function(request, response) {
   response.render('pages/twitch-tv', { title: "Twitch-TV" });
 });
