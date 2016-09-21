@@ -4,8 +4,9 @@ $(function() {
     event.preventDefault();
     // get field value
     url = buildUrl(queryTerm);
+    console.log("query:" + url);
     $.ajax({
-      type: 'GET', url: url, dataType: 'jsonp',
+      type: 'GET', url: url, dataType: 'jsonp', maxlag:5
     })
     .error(function(xhr, status, err) {
       console.error(url + err.toString());
@@ -13,6 +14,10 @@ $(function() {
     .success(function(query){
       $('#searchTerm').val('');
       $('#article-list').empty();
+      console.log(query);
+      if (!query.query) { 
+        $(".hidden").removeClass("hidden")
+      }
       appendToList(query.query.search);
     });
   });

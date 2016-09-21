@@ -20,10 +20,14 @@
             </span>
           </div>
         </div>
+        <div id="error-message" class="alert-danger text-center hidden">
+      <h4>Cannot reach wikipedia</h4>
+      </div>
+    </div> 
       </div>
   	</div>
   </div>    
-       
+  
     <div class="col-md-6 col-md-offset-3">
       <ul id='article-list'>
       </ul>
@@ -31,6 +35,7 @@
     <div class="container">
       <% include ../partials/footer %>        
     </div>
+    
   <script src="wiki-viewer/client.js"></script>
   <script src="https://use.fontawesome.com/c5c29d9a4e.js"></script>
 </body>
