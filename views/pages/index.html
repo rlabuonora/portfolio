@@ -1,143 +1,157 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <% include ../partials/head %>
-    <body>
-      <div class="container">
-        <% include ../partials/header %>
+<html lang="en">
+<% include ../partials/head %>
+
+  <body>
+    <div class="container">
+      <% include ../partials/header %>
         <div class="jumbotron hidden-xs">
           <div class="row text-center"> <img alt="" src="/images/header4.jpg" /></div>
-        </div> <!-- image -->
+        </div>
+        <!-- image -->
         <div class="row marketing" id="quehago">
           <h2 class="text-center">¿Qué Hago?</h2>
           <div class="col-sm-4">
             <div class="panel panel-default text-center">
-              <div class="panel-heading"><h4>Análisis de Datos</h4></div>
-              <div class="panel-body"><p> Análisis de información estadística para la resolución de problemas.</p>
-              <p><i class="fa fa-area-chart"></i> </p>
+              <div class="panel-heading">
+                <h4>Análisis de Datos</h4>
+              </div>
+              <div class="panel-body">
+                <p> Análisis de información estadística para la resolución de problemas.</p>
+                <p><i class="fa fa-area-chart"></i> </p>
               </div>
             </div>
           </div>
-          
+
           <div class="col-sm-4">
             <div class="panel panel-default text-center">
-            <div class="panel-heading"> <h4>Programación</h4></div>
-            <div class="panel-body"><p> Desarrollo de Software usando metodologías Agile.</p> 
-              <p><i class="fa fa-cog"></i> </p>                          
-            </div>
-            </div>
-          </div> <!-- col 2 -->
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading"><h4>Docencia</h4></div>
-              <div class="panel-body"><p>Comunicación efectiva </br>de ideas técnicas complejas.  </p>
-              <p><i class="fa fa-graduation-cap"></i> </p>
+              <div class="panel-heading">
+                <h4>Programación</h4>
+              </div>
+              <div class="panel-body">
+                <p> Desarrollo de Software usando metodologías Agile.</p>
+                <p><i class="fa fa-cog"></i> </p>
               </div>
             </div>
-          </div> <!-- col 1 -->
+          </div>
+          <!-- col 2 -->
+          <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h4>Docencia</h4>
+              </div>
+              <div class="panel-body">
+                <p>Comunicación efectiva </br>de ideas técnicas complejas. </p>
+                <p><i class="fa fa-graduation-cap"></i> </p>
+              </div>
+            </div>
+          </div>
+          <!-- col 1 -->
         </div>
-         <h2 class="text-center">Novedades</h2>
-         <div class="row marketing" id="quehago">
+        <h2 class="text-center">Novedades</h2>
+        <div class="row marketing" id="quehago">
           <div class="col-sm-12">
             <div class="panel panel-default">
-              
+
               <div class="panel-body">
                 <li> 1/9/2016:
-                <a href="/foro-ciudades"> Presentación Foro Nacional Ciudades Sustentables</a>
+                  <a href="/foro-ciudades"> Presentación Foro Nacional Ciudades Sustentables</a>
                 </li>
-                 <li>15/6/2016:
-                <a target="_blank" href="http://www.precios.uy/an%C3%A1lisis-de-precios-2/novedades/214-lanzamiento-preciosgub.html">Lanzamiento preciosGub</a>
+                <li>15/6/2016:
+                  <a target="_blank" href="http://www.precios.uy/an%C3%A1lisis-de-precios-2/novedades/214-lanzamiento-preciosgub.html">Lanzamiento preciosGub</a>
                 </li>
-                 <li> 15/10/2015:
-                <a href="/mision-corea"> Misión Gobierno Electrónico a Corea del Sur</a>
+                <li> 15/10/2015:
+                  <a href="/mision-corea"> Misión Gobierno Electrónico a Corea del Sur</a>
                 </li>
               </div>
             </div>
           </div>
         </div>
-  <!-- que hago -->
-  
-  <div class="proyectos">
-  <h2 class="text-center"><a href="/proyectos">Proyectos Recientes</a></h2>
-    <div class="row">
-     <!-- Wiki, weather-->
-      <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="/wikipedia-search" target="_blank">Search Wikipedia</a></h3>
-          <img src="images/logos/wikipedia.png" class="logo"/>
-          <p>Usa la API de Wikipedia para buscar artículos.</p>
+        <!-- que hago -->
+
+        <div class="proyectos">
+          <h2 class="text-center"><a href="/proyectos">Proyectos Recientes</a></h2>
+          <div class="row">
+            <!-- Wiki, weather-->
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="/wikipedia-search" target="_blank">Search Wikipedia</a></h3>
+                <img src="images/logos/wikipedia.png" class="logo" />
+                <p>Usa la API de Wikipedia para buscar artículos.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="proyecto">
+
+                <h3><a href="https://weather-widget-v1.herokuapp.com/" target="_blank">Weather App</a></h3>
+                <img src="images/logos/weather.png" class="logo" />
+                <p>Georeferencia al cliente y consulta el clima en ese punto.</p>
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Wiki, weather-->
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="/random-quote" target="_blank">Random Quote</a></h3>
+                <img src="images/logos/quote.png" class="logo" />
+                <p>Saca citas sabias al azar y las postea a Twitter.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="/twitch-tv" target="_blank">Twitch API</a></h3>
+                <img src="images/logos/twitch2.png" class="logo" />
+                <p>Usa la API de Twitch para ver canales streaming.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Wiki, weather-->
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="http://www.precios.gub.uy" target="_blank">Sistema de Precios</a></h3>
+                <img src="images/logos/logoSIPCBulleye_escalada.png" class="logo" />
+                <p>Datos de precios de supermercados.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="https://morning-ridge-1269.herokuapp.com/">Rails Tutorial</a></h3>
+                <img src="images/logos/rails_tutorial_escalada.png" class="logo" />
+                <p>Un clon de twitter, basado en el tutorial de Michael Hartl</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Wiki, weather-->
+            <div class="col-md-6">
+              <div class="proyecto">
+                <h3><a href="https://pacpymes.herokuapp.com/" target="_blank">PACPYMES</a></h3>
+                <img src="images/logos/pacpymes.png" class="logo" />
+                <p>Una aplicación para gestionar un programa de apoyo a empresas.</p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
-      </div>
-       <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="/twitch-tv" target="_blank">Twitch API</a></h3>
-          <img src="images/logos/twitch2.png" class="logo"/>
-          <p>Usa la API de Twitch para ver canales streaming.</p>
+        <div class="row" id="about">
+          <div class="col-sm-6 col-md-offset-1">
+            <h2 class="text-center sobre">Sobre Mí</h2>
+            <p>Estudié economía pero siempre me interesaron otras cosas. Actualmente soy consultor de Ministerio de Economía y Finanzas para el Sistema de Información de Precios al Consumidor. Acá esta mi <a href="https://rlabuonora74.files.wordpress.com/2016/04/rafael-la-buonora-c-v-spa.pdf">C.V.</a></p>
+
+            Vivo en Montevideo, Uruguay con mi esposa y mi hija.</p>
+          </div>
+          <div class="col-md-2 col-md-offset-3" id="foto">
+            <img src="images/rafa.png" class="hidden-xs" />
+          </div>
         </div>
-       </div>
-     </div>
-     <div class="row">
-     <!-- Wiki, weather-->
-      <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="/random-quote" target="_blank">Random Quote</a></h3>
-          <img src="images/logos/quote.png" class="logo"/>
-          <p>Saca citas sabias al azar y las postea a Twitter.</p>
-        </div>
-      </div>
-       <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="https://weather-widget-v1.herokuapp.com/" target="_blank">Weather App</a></h3>
-          <img src="images/logos/weather.png" class="logo"/>
-          <p>Georeferencia al cliente y consulta el clima en ese punto.</p>
-        </div>
-       </div>
-     </div>
-    <div class="row">
-     <!-- Wiki, weather-->
-      <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="http://www.precios.gub.uy" target="_blank">Sistema de Precios</a></h3>
-          <img src="images/logos/logoSIPCBulleye_escalada.png" class="logo"/>
-          <p>Datos de precios de supermercados.</p>
-        </div>
-      </div>
-       <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="https://morning-ridge-1269.herokuapp.com/">Rails Tutorial</a></h3>
-          <img src="images/logos/rails_tutorial_escalada.png" class="logo"/>
-          <p>Un clon de twitter, basado en el tutorial de Michael Hartl</p>
-        </div>
-       </div>
-     </div>  
-      <div class="row">
-     <!-- Wiki, weather-->
-      <div class="col-md-6">
-        <div class="proyecto">
-          <h3><a href="https://pacpymes.herokuapp.com/" target="_blank">PACPYMES</a></h3>
-          <img src="images/logos/pacpymes.png" class="logo"/>
-          <p>Una aplicación para gestionar un programa de apoyo a empresas.</p>
-        </div>
-      </div>
-     </div>  
-        
-    
-    </div>
-    <div class="row" id="about">
-      <div class="col-sm-6 col-md-offset-1">
-        <h2 class="text-center sobre">Sobre Mí</h2>
-        <p>Estudié economía pero siempre me interesaron otras cosas. 
-          Actualmente soy consultor de Ministerio de Economía y Finanzas 
-          para el Sistema de Información de Precios al Consumidor.
-          
-          Acá esta mi <a href="https://rlabuonora74.files.wordpress.com/2016/04/rafael-la-buonora-c-v-spa.pdf">C.V.</a></p>
-          
-          Vivo en Montevideo, Uruguay con mi esposa y mi hija.</p>
-      </div>
-      <div class="col-md-2 col-md-offset-3" id="foto">
-        <img src="images/rafa.png" class="hidden-xs"/>
-      </div>
-    </div>
         <% include ../partials/footer %>
-      </div>
-    </body>
-  </html>
+    </div>
+  </body>
+
+</html>
