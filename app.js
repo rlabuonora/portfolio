@@ -33,4 +33,9 @@ app.get('/wikipedia-search', function(request, response) {
   response.render('pages/wiki-viewer', { title: "Wikipedia Viewer" });
 })
 
+app.get('/game-of-life', function(request, response) {
+  response.render('public/game-of-life', { title: "Game of life" });
+})
+
+
 module.exports = app;
