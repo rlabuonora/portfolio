@@ -3,7 +3,10 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  
 }
+
 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -194,6 +197,12 @@ h2 {
 
 figcaption {
   font-style: italic;
+  font-size: 13px;
+  color: #333;
+}
+
+.fecha {
+  
   font-size: 13px;
   color: #333;
 }
