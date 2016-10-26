@@ -206,3 +206,7 @@ figcaption {
   font-size: 13px;
   color: #333;
 }
+body {
+  font-family: 'Cardo', serif;
+  font-size: 22px;
+}
