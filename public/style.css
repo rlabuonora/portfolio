@@ -216,4 +216,18 @@ body {
  font-size: 18px;
 }
 
+.proyectos i {
+  float: right;
+  
+}
+
+ul.proyectos {
+  
+  list-style: none;
+}
+.proyectos li {
+ box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+ padding: 20px;
+  margin: 40px;
+}
 
