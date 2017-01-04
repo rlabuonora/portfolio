@@ -49,11 +49,11 @@ body {
 
 /* Customize container */
 
-/* @media (min-width: 768px) { */
-/*   .container { */
-/*     max-width: 960px */
-/*   } */
-/* } */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px
+  }
+}
 
 .container-narrow > hr {
   margin: 30px 0;
@@ -238,7 +238,7 @@ ul.proyectos {
 
 @media (min-width: 450px) {
   .proyectos li {
-      margin: auto;
+    max-width: 360px
   }
 }
 
