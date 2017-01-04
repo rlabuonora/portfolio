@@ -150,7 +150,7 @@ h2 {
 #foto {
   position: absolute;
   margin-top: 500px;
-  margin-left: 630px;
+  margin-left: 580px;
   transition: all 1s ease-in;
 }
 
@@ -236,9 +236,9 @@ ul.proyectos {
 }
 
 
-
-
-
-
-
+@media (min-width: 450px) {
+  .proyectos li {
+      margin: auto;
+  }
+}
 
