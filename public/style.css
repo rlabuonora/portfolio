@@ -125,7 +125,7 @@ h2 {
 
 .proyecto h3 {
   display: inline;
-  font-size: 14px;
+  font-size: 24px;
   margin-left: 20px;
 
 }
@@ -136,9 +136,10 @@ h2 {
 }
 
 .proyecto {
- margin-top: 40px;
- box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
- padding: 20px;
+   margin-top: 40px;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   padding: 20px;
+   min-width: 400px;
  
 }
 
@@ -202,7 +203,6 @@ figcaption {
 }
 
 .fecha {
-  
   font-size: 13px;
   color: #333;
 }
@@ -218,7 +218,6 @@ body {
 
 .proyectos i {
   float: right;
-  
 }
 
 ul.proyectos {
@@ -235,3 +234,11 @@ ul.proyectos {
     max-height: 260px;
     min-height: 260px;
 }
+
+
+
+
+
+
+
+
