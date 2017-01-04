@@ -1,7 +1,8 @@
-#! /home/ubuntu/.nvm/versions/node/v4.1.1/bin/node
+#! /usr/local/bin/node
+
 var app = require('../app');
-var port = process.env.PORT;
+var port = process.env.PORT || 3000;
 
 app.listen(port, function() {
-  console.log("listening on https://node-js-rlabuonora.c9users.io/");
+  console.log("listening on port " + port);
 });
