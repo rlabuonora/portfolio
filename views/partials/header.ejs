@@ -1,10 +1,22 @@
-  <div class="header clearfix">
-    <nav>
-      <ul class="nav nav-pills pull-right">
-        <li role="presentation" class='<%= title === "Inicio" ? "active" : "" %>'><a href="http://www.rlabuonora.com">Inicio</a></li>
-        <li role="presentation" class='<%= title === "Proyectos" ? "active" : "" %>'><a href="/proyectos">Proyectos</a></li>
-        <li role="presentation"><a href="http://rlabuonora74.wordpress.com/" target='_blank'>Blog</a></li>
-      </ul>
-    </nav>
-    <h3 class="text-muted">rlabuonora</h3>
+  <nav class="navbar navbar-default">
+  <div class="navbar-header">
+  <button type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#collapsemenu"
+          aria-expanded="false">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+  </button>
+    <a class="navbar-brand" href="#">rlabuonora</a>
   </div>
+  <div class="collapse navbar-collapse" id="collapsemenu">
+    <ul class="nav navbar-nav pull-right">
+      <li class='<%= title === "Inicio" ? "active" : "" %>'><a href="http://www.rlabuonora.com">Inicio</a></li>
+      <li class='<%= title === "Proyectos" ? "active" : "" %>'><a href="/proyectos">Proyectos</a></li>
+      <li ><a href="http://rlabuonora74.wordpress.com/" target='_blank'>Blog</a></li>
+    </ul>
+    </div>
+  </nav>

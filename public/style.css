@@ -51,7 +51,7 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 960px
   }
 }
 
@@ -149,7 +149,7 @@ h2 {
 #foto {
   position: absolute;
   margin-top: 500px;
-  margin-left: 430px;
+  margin-left: 630px;
   transition: all 1s ease-in;
 }
 
@@ -231,3 +231,7 @@ ul.proyectos {
   margin: 40px;
 }
 
+.panel {
+    max-height: 260px;
+    min-height: 260px;
+}
