@@ -139,8 +139,6 @@ h2 {
    margin-top: 40px;
    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
    padding: 20px;
-   // min-width: 400px;
- 
 }
 
 .logo {
@@ -242,3 +240,6 @@ ul.proyectos {
   }
 }
 
+.sobre {
+    padding: 40px;
+}
