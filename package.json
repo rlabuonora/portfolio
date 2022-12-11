@@ -6,7 +6,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "ejs": "^2.5.5",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "superagent": ">=3.7.0",
     "extend": ">=3.0.2",
     "supertest": "^1.2.0"
