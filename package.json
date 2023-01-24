@@ -9,7 +9,7 @@
     "express": "^4.13.4",
     "superagent": ">=3.7.0",
     "extend": ">=3.0.2",
-    "supertest": "^1.2.0"
+    "supertest": "^6.3.3"
   },
   "devDependencies": {},
   "scripts": {
